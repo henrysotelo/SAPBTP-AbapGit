@@ -1,0 +1,7 @@
+@EndUserText.label: 'Data Definition Libro'
+define service ZSD_LIBRO_8712 {
+  expose ZC_LIBRO_8712      as Libros;
+  expose ZC_CLIENTES_8712   as Clientes;
+  expose zc_categorias_8712 as Categorias;
+  expose ZC_CLNTS_LIB_8712  as ClientesLibros;
+}
